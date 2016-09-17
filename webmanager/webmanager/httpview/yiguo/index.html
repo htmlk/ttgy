@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/kuCity.css">
+    <link rel="stylesheet" href="css/public.css"/>
+    <title>易果生鲜Yiguo网_全球精选</title>
+</head>
+<body>
+<!--固定购物篮-->
+
+<!--顶部工具栏-->
+ <div id="site-nav">
+        <div class="wrap">
+            <ul class="left">
+                <li><a href="index.html">欢迎光临易果生鲜</a></li>
+                <li>配送至：</li>
+                <li><input type="button" class="local" value="北京" style="" >▼</li>
+            </ul>
+            <ul  class="right">
+                <li><a id="status-login" href="login.html">[登录]</a></li>
+                <li><a  id="status-reg" href="reg.html">[注册]</a></li>
+                <li class="li_active">
+                    <div class="con-title"><a href=""><span class="span_1"></span>我的易果▼</a></div>
+                    <div class="con">
+                        <a rel="nofollow" href="">我的订单</a>
+                        <a rel="nofollow" href="">我的优惠券<b id="coupon">0</b></a>
+                        <a rel="nofollow" href="">我的收藏</a>
+                        <a rel="nofollow" href="">我的悠币</a>
+                        <a rel="nofollow" href="">我的退换货</a>
+                        <a rel="nofollow" href="">预存款查询</a>
+                        <a rel="nofollow" href="">立即充值</a>
+                        <a rel="nofollow" href="javascript:;" class="logout" style="display:none;">退出</a>
+                    </div>
+                </li>
+                <li class="li_active">
+                    <a href=""><span class="span_2"></span>手机易果▼</a>
+                    <div class="con">
+                        <div class="item">
+                            <img src="picture/qrcode_app.jpg" width="125" height="125">
+                            <p>扫一扫下载APP</p>
+                        </div>
+                        <div class="item">
+                            <img src="picture/qrcode_wechat.jpg" width="125" height="125">
+                            <p>易果生鲜微信</p>
+                        </div>
+                    </div>
+
+                </li>
+                <li><a href=""><span class="span_3"></span>储值卡</a></li>
+                <li><a href=""><span class="span_4"></span>提货券入口</a></li>
+            </ul>
+        </div>
+</div>
+<!--头部-->
+<div id="header">
+    <div class="topCart">
+    <div class="wrap">
+        <div class="log">
+            <a href="index.html">
+                <img src="images/logo.png" alt=""/>
+            </a>
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <input id="search-txt" type="text" placeholder="请输入商品名/编号/拼音"/>
+                <input  id="search-submit" type="submit" value="搜索"/>
+            </div>
+            <div class="search-keywords">
+                <a href="#">樱桃</a>
+                <a href="#">苹果</a>
+                <a href="#">香蕉</a>
+            </div>
+        </div>
+        <div class="shopping-cart">
+            <div class="cart-title"><a href="cart.html"><span class="cart-sum">0</span><b class="cart-price">¥00.00</b></a></div>
+            <div class="cart-content" >
+                <div id="cart-list">
+                    <!--  <li><a href="">
+                   <img height="30px" src="../pubilc_img/0101001.jpg" alt=""/>
+                   <i>加拿大蓝莓2盒(约125g/盒)加拿大蓝莓2盒(约125g/盒)</i>
+                   <div class="right">
+                       <span>￥149.00</span>*
+                       <b>1</b>
+                       <em>删除</em>
+                   </div>
+               </a></li>-->
+                </div>
+                <div class="cart-total">
+                    <p><b>共 <span class="cart-sum">0</span> 件商品</b><b> 共计<span class="cart-price">￥00.00</span></b></p>
+                    <p class="cart-go"><a href="cart.html">去购物车</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</div>
+<!--轮播图和导航-->
+<div id="banner-slider" class="af4">
+    <!--轮播图-->
+    <ul class="slideBox">
+        <li><a href="#"><img src="images/banner_1.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner_2.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner_3.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner_4.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner_5.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner_6.jpg" /></a></li>
+        <li><a href="#"><img src="images/banner_7.jpg" /></a></li>
+    </ul>
+    <!--header-list-->
+    <div id="header-list">
+        <div class="wrap">
+            <div class="catalogs">
+                <div class="catalogs-title">
+                    <a href="">全部商品分类▼</a>
+                </div>
+                <div class="catalogs-list">
+                    <div class="item">
+                        <div class="item-title">
+                            <h3>
+                                <span class="span_1"></span>
+                                <b href="">进口商品</b>
+                            </h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">进口商品</a></h3>
+                            <a href="about.html?id=0101">奇异果</a>
+                            <a href="">牛油果</a>
+                            <a href="">李</a>
+                            <a href="">牛油果</a>
+                            <a href="">提子</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3>
+                                <span class="span_2"></span>
+                                <b href="">国产水果</b>
+                            </h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">国产水果</a></h3>
+                            <a href="">苹果</a>
+                            <a href="">梨</a>
+                            <a href="">柑橘橙柚</a>
+                            <a href="">猕猴桃</a>
+                            <a href="">瓜</a>
+                            <a href="">葡萄</a>
+                            <a href="">桃</a>
+                            <a href="">李</a>
+                            <a href="">枣</a>
+                            <a href="">芒果</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+
+                            <h3>
+                                <span class="span_3"></span>
+                                <b href="">精选肉类</b>
+                            </h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">精选肉类</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+
+                            <h3>
+                                <span class="span_4"></span>
+                                <b href="">禽类蛋品</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">禽类蛋品</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+
+                            <h3>
+                                <span class="span_5"></span>
+                                <b href="">海鲜水产</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">海鲜水产</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3>
+                                <span class="span_6"></span>
+                                <b href="">乳品糕点</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">乳品糕点</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3>
+                                <span class="span_7"></span>
+                                <b href="">新鲜蔬菜</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">新鲜蔬菜</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3> <span class="span_8"></span>
+                                <b href="">方便速食</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">方便速食</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3> <span class="span_9"></span>
+                                <b href="">粮油杂货</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">粮油杂货</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3> <span class="span_10"></span>
+                                <b href="">饮料酒水</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">饮料酒水</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item-title">
+                            <h3> <span class="span_11"></span>
+                                <b href="">礼品礼券</b></h3>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">礼品礼券</a></h3>
+                            <a href="">进口牛肉</a>
+                            <a href="">国产牛肉</a>
+                            <a href="">猪肉</a>
+                            <a href="">羊肉</a>
+                            <a href="">香肠</a>
+                            <a href="">火腿/培根</a>
+                            <a href="">肉制品</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--广告位-->
+<div id="new-item">
+    <div class="wrap">
+        <ul>
+            <li><a href=""><img src="picture/new1.jpg" alt=""/></a></li>
+            <li><a href=""><img src="picture/new2.jpg" alt=""/></a></li>
+            <li><a href=""><img src="picture/new3.jpg" alt=""/></a></li>
+            <li><a href=""><img src="picture/new4.jpg" alt=""/></a></li>
+        </ul>
+    </div>
+</div>
+<!--锚点链接-->
+<div id="fooNav">
+    <ul>
+        <li class="active" class="f1"><span>进口水果</span></li>
+        <li class="f2"><span>国产水果</span></li>
+        <li class="f3"><span>精选肉类</span></li>
+        <li class="f4"><span>禽类蛋品</span></li>
+        <li class="f5"><span>海鲜水产</span></li>
+        <li class="f6"><span>乳品糕点</span></li>
+        <li class="f7"><span>新鲜蔬菜</span></li>
+        <li class="f8"><span>方便速食</span></li>
+    </ul>
+</div>
+<!--商品楼层-->
+<div id="home">
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor1"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0102.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0103.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0104.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0105.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0106.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0107.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor2"></b>
+                <a href="">国产水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0202.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0203.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0204.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0205.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0206.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0207.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor3"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0202.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0203.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0204.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0205.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0206.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0207.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor4"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0102.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0103.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0104.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0105.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0106.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0107.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor5"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0102.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0103.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0104.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0105.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0106.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0107.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor6"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0102.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0103.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0104.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0105.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0106.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0107.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor7"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0102.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0103.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0104.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0105.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0106.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0107.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="home-title">
+            <div class="title-left">
+                <b class="floor8"></b>
+                <a href="">进口水果</a>
+            </div>
+            <div class="title-right">
+                <ul>
+                    <li><a href="`">进口水果</a></li>
+                    <li><a href="`">佳沛专区</a></li>
+                    <li><a href="`">泰国鲜果</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home-content">
+            <div class="home-side">
+                <li><a href=""><img src="img/0101.jpg" alt=""/></a></li>
+            </div>
+            <div class="home-main">
+                <ul>
+                    <li><a href=""><img src="img/0102.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0103.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0104.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0105.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0106.jpg" alt=""/></a></li>
+                    <li><a href=""><img src="img/0107.jpg" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--footer_service-->
+<div id="footer_service">
+    <div class="wrap">
+        <ul>
+            <li class="li_1">
+                <b>全球精选</b>
+                <span>一站式生鲜购物方案</span>
+            </li>
+            <li class="li_2">
+                <b>多仓直发</b>
+                <span>特有次日达配送服务</span>
+            </li>
+            <li class="li_3">
+                <b>源头直采</b>
+                <span>精选正宗品质好食材</span>
+            </li>
+            <li class="li_4">
+                <b>天天底价</b>
+                <span>会员专属优惠购不停</span>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--footer-->
+<div id="footer">
+    <div class="wrap">
+        <dl class="col1">
+            <dt>新手指南</dt>
+            <dd>
+                <p><a href="">账户注册</a></p>
+                <p><a href="">购物流程</a></p>
+                <p><a href="">订购方式</a></p>
+                <p><a href="">悠币说明</a></p>
+                <p><a href="">会员等级</a></p>
+
+            </dd>
+        </dl>
+        <dl class="col2">
+            <dt>付款方式</dt>
+            <dd>
+                <p><a href="">支付方式</a>/<a href="">发票说明</a></p>
+                <p><a href="">充值说明</a>/<a href="">储值卡说明</a></p>
+                <p><a href="">优惠代码/礼品卡说明</a></p>
+                <p><a href="">卡券购买章程</a></p>
+            </dd>
+        </dl>
+        <dl class="col3">
+            <dt>配送方式</dt>
+            <dd>
+                <p><a href="">配送运费</a></p>
+                <p><a href="">配送范围</a></p>
+                <p><a href="">配送时间</a></p>
+            </dd>
+        </dl>
+        <dl class="col4">
+            <dt>售后服务</dt>
+            <dd>
+                <p><a href="">退换货政策</a></p>
+                <p><a href="">退换货流程</a></p>
+                <p><a href="">常见问题</a></p>
+                <p><a href="">投诉与建议</a></p>
+            </dd>
+        </dl>
+        <dl class="col5">
+            <dt>关于我们</dt>
+            <dd>
+                <p><a href="/">公司介绍</a></p>
+                <p><a href="">联系我们</a></p>
+                <p><a href="">业务合作</a></p>
+                <p><a href="">诚信举报</a></p>
+                <p><a href="" target="_blank" rel="nofollow">人才招聘</a></p>
+                <p><a href="">友情链接</a></p>
+
+            </dd>
+        </dl>
+            <div class="service">
+                <span>客服热线 400-000-7788 企业采购或团购，请转2号键咨询</span>
+                <span>周一至周日 9:00-21:00</span>
+            </div>
+            <div class="copyright">
+                <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+                <p>沪ICP备09008015号 Copyright © 2005-2016 <a href="">上海易果电子商务有限公司</a>版权所有</p>
+                <p class="authentication">
+                    <a href="#" target="_blank" rel="nofollow"><img src="picture/footer_all.png" width="40px" height="47px"></a>
+                    <a href="#" target="_blank"><img src="picture/footer_copy.gif" ></a>
+                    <a target="_blank" href="#" ><img src="picture/footer_ghs.png" alt=""/> <span >沪公网安备 31010502000002号</span></a>
+
+                </p>
+            </div>
+    </div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/kuCity.js"></script>
+<script src="js/L_slide.js"></script>
+<script src="js/mycookie.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/status-cookie.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

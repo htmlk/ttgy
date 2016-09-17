@@ -1,0 +1,236 @@
+@charset "utf-8";
+#login_header{
+    height: 60px;
+    background: #E0E0E0;
+    padding-top: 10px;
+}
+#login_header a{
+    float: left;
+    width: 200px;
+}
+#login_header b{
+    float: left;
+    font-size: 32px;
+    font-family: "黑体";
+    color: #008842;
+    line-height: 60px;
+}
+/*login*/
+#login{
+    height: 480px;
+    padding-top: 50px;
+}
+#login .login_left{
+    width: 748px;
+    float: left;
+
+}
+#login .login_right{
+    width: 300px;
+    float: left;
+    padding: 30px  20px;
+    border: 1px solid #CCCCCC;
+}
+#login .login_right h2{
+    float: left;
+    font-size: 18px;
+    font-family: "黑体";
+    height: 40px;
+    width: 150px;
+
+}
+#login .login_right .right_reg{
+    float: right;
+    height: 40px;
+    width: 150px;
+
+}
+#login .login_right p{
+    overflow: hidden;
+    width: 300px;
+}
+#login .login_right span{
+    float: left;
+    height: 38px;
+    width: 38px;
+    border: 1px solid #CCCCCC;
+    border-right: 0;
+    background: url(../images/bg_input.png) no-repeat 0 -120px ;
+    margin-bottom: 20px;
+
+
+}
+#login .login_right .span_2{
+    background-position: 0 -180px;
+
+}
+
+#login .login_right .span_3 input{
+    width: 100px;
+}
+#login .login_right .span_3 img{
+    height: 40px;
+}
+#login .login_right .check{
+    clear: both;
+    width: 12px;
+    height: 12px;
+}
+#login .login_right .span_4{
+
+
+}
+#login .login_right .span_4 label{
+    float: left;
+}
+#login .login_right .span_4 a{
+    float: right;
+}
+#login .login_right .span_5{
+    width: 300px;
+
+}
+#login .login_right .submit {
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    padding-top: 10px;
+    background: #09964E;
+    color: #FFFFFF;
+    font: 18px "黑体";
+    border: 0;
+}
+#login .login_right .login_main .a_1{
+    display: block;
+    width: 300px;
+    height: 40px;
+    background: url(../images/bg_login.png) no-repeat -60px -195px ;
+}
+#login .login_right input{
+    float: left;
+    height: 34px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+#login .login_right .login_main p b{
+    height: 30px;
+    line-height:30px;
+    display: block
+}
+    /*reg*/
+#reg .tab-url ul{
+    height: 45px;
+    width: 1200px;
+    padding-left: 240px;
+
+}
+#reg .tab-url ul li {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    width: 200px;
+    margin-right: 6px;
+    text-align: center;
+    border: 1px solid #008842;
+    background: #FFFFFF;
+    border-bottom: 0;
+}
+#reg .tab-url ul #phone{
+    height: 44px;
+    border-top: 2px  solid #008842;
+}
+#reg .tab-url ul li a{
+    width: 200px;
+    color: #000000;
+    font-size: 18px;
+}
+#reg .tab-content{
+    height: 700px;
+    border: 1px solid #008842;
+    padding-top: 40px;
+}
+#tab2{
+    display: none;
+}
+#reg .tab-content p{
+    height: 80px;
+    line-height: 40px;
+}
+#reg .field-name{
+    display: block;
+    width: 220px;
+    float: left;
+    text-align: right;
+    font-size: 16px;
+    margin-right: 20px;
+}
+#verficode_tab1{
+    width: 150px;
+}
+
+#tab1chk,#tab2chk{
+    width: 15px;
+}
+.tab-content .input-yzm{
+    width: 150px;
+}
+.tab-content .btn-yzm{
+    float: left;
+    width: 130px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    margin-left: 20px;
+    border: 1px solid #CCCCCC;
+    background: #eeeeee;
+}
+.tab-content .btn-green-l{
+    margin-left: 240px;
+    color: #FFFFFF;
+    font-family: "黑体";
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    background: #008842;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+}
+.tab-content input{
+    float: left;
+    height: 40px;
+    width: 300px;
+}
+#reg .wrap{
+    position: relative;
+}
+#reg .right{
+    position: absolute;
+    top: 20px;;
+    right: 20px;
+}
+
+#code
+{
+    font-family:Arial;
+    font-weight:bold;
+    border:0;
+    width: 130px;
+    letter-spacing:2px;
+    color: #008842;;
+    margin-left: 20px;;
+    border: 1px solid #CCCCCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+

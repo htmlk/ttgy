@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*header-list*/
+#header-list{
+    position: relative;
+}
+#header-list .catalogs{
+    position: absolute;
+}
+#header-list .catalogs-list{
+    display: none;
+}
+#header-list .catalogs:hover .catalogs-list {
+    display: block;
+}
+/*about-nav*/
+#about_nav ul{
+    margin-left: 180px;
+    height: 37px;
+    border-bottom: 1px solid #008842;
+}
+#about_nav li{
+    float: left;
+    line-height: 36px;
+    padding: 0 30px;
+    font-family: "黑体";
+    color: #333333;
+}
+#about_nav li a{
+    font-size: 16px;
+}
+/*about_banner*/
+#about_banner .a-slider{
+    padding: 20px 0;
+    overflow: hidden;
+}
+#about_banner .a-slider li{
+    float: left;
+    margin-right: 7px;
+    overflow: hidden;
+}
+/*select*/
+#select .wrap{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #eeeeee;
+    border: 1px solid #CCCCCC;
+}
+#select .select_title{
+    float: left;
+    height: 35px;
+    width:100px;
+   background: #DCDCDC;
+}
+#select ul{
+    float: left;
+}
+#select ul li{
+    float: left;
+}
+#select ul li a{
+    padding: 0 10px;
+    border-right: 1px solid #666666;
+}
+/*sort*/
+#sort .wrap{
+    height: 25px;
+    background: #DCDCDC;
+    margin-top: 20px;
+    padding: 5px;
+    width: 1190px;
+}
+#sort  li{
+    float: left;
+}
+#sort  li a{
+    display: block;
+    border: 1px solid #666666;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 0 20px;
+}
+/*goods_list*/
+#goods_list{
+    overflow: hidden;
+}
+#goods_list dl{
+    float: left;
+    width: 290px;
+    height: 360px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #FFFFFF;
+
+}
+#goods_list dl dt{
+    position: relative;
+
+}
+#goods_list dl dt .cart:hover{
+    background: #FFFFFF;
+}
+#goods_list dl dt .cart{
+    display: block;
+    width: 190px;
+    height: 20px;
+    padding: 20px 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#goods_list dl dt .cart a{
+    display: none;
+    width: 190px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFFFF;
+    background:#008842 ;
+}
+#goods_list dl dt .cart:hover a{
+    display: block;
+
+}
+#goods_list dl dt img{
+    width: 100%;
+}
+
+#goods_list dl dd a{
+    display: block;
+    width: 290px;
+    height: 30px;
+    margin-left: 10px;
+    color: #333333;
+}
+#goods_list dl  dd b{
+    font-size: 18px;
+    color: #e7380d;
+    margin-left: 10px;
+    font-family: "黑体";
+    font-weight: bolder;
+}

@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/detail.css"/>
+    <link rel="stylesheet" href="css/about.css"/>
+    <link rel="stylesheet" href="css/kuCity.css"/>
+    <title></title>
+</head>
+<body style="background: #f8f8f8;">
+<!--顶部工具栏-->
+<div id="site-nav">
+    <div class="wrap">
+        <ul class="left">
+            <li><a href="index.html">欢迎光临易果生鲜</a></li>
+            <li>配送至：</li>
+            <li><input type="button" class="local" value="北京" style="" >▼</li>
+        </ul>
+        <ul  class="right">
+            <li><a id="status-login" href="login.html">[登录]</a></li>
+            <li><a  id="status-reg" href="reg.html">[注册]</a></li>
+            <li class="li_active">
+                <div class="con-title"><a href=""><span class="span_1"></span>我的易果▼</a></div>
+                <div class="con">
+                    <a rel="nofollow" href="">我的订单</a>
+                    <a rel="nofollow" href="">我的优惠券<b id="coupon">0</b></a>
+                    <a rel="nofollow" href="">我的收藏</a>
+                    <a rel="nofollow" href="">我的悠币</a>
+                    <a rel="nofollow" href="">我的退换货</a>
+                    <a rel="nofollow" href="">预存款查询</a>
+                    <a rel="nofollow" href="">立即充值</a>
+                    <a rel="nofollow" href="javascript:;" class="logout" style="display:none;">退出</a>
+                </div>
+            </li>
+            <li class="li_active">
+                <a href=""><span class="span_2"></span>手机易果▼</a>
+                <div class="con">
+                    <div class="item">
+                        <img src="picture/qrcode_app.jpg" width="125" height="125">
+                        <p>扫一扫下载APP</p>
+                    </div>
+                    <div class="item">
+                        <img src="picture/qrcode_wechat.jpg" width="125" height="125">
+                        <p>易果生鲜微信</p>
+                    </div>
+                </div>
+
+            </li>
+            <li><a href=""><span class="span_3"></span>储值卡</a></li>
+            <li><a href=""><span class="span_4"></span>提货券入口</a></li>
+        </ul>
+    </div>
+</div>
+<!--头部-->
+<div id="header">
+    <div class="wrap">
+        <div class="log">
+            <a href="index.html">
+                <img src="images/logo.png" alt=""/>
+            </a>
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <input id="search-txt" type="text" placeholder="请输入商品名/编号/拼音"/>
+                <input  id="search-submit" type="submit" value="搜索"/>
+            </div>
+            <div class="search-keywords">
+                <a href="#">樱桃</a>
+                <a href="#">苹果</a>
+                <a href="#">香蕉</a>
+            </div>
+        </div>
+        <div class="shopping-cart">
+            <div class="cart-title"><a href="cart.html"><span class="cart-sum">0</span><b class="cart-price">¥00.00</b></a></div>
+            <div class="cart-content" >
+                <div id="cart-list">
+                    <!--  <li><a href="">
+                   <img height="30px" src="../pubilc_img/0101001.jpg" alt=""/>
+                   <i>加拿大蓝莓2盒(约125g/盒)加拿大蓝莓2盒(约125g/盒)</i>
+                   <div class="right">
+                       <span>￥149.00</span>*
+                       <b>1</b>
+                       <em>删除</em>
+                   </div>
+               </a></li>-->
+                </div>
+                <div class="cart-total">
+                    <p><b>共 <span class="cart-sum">0</span> 件商品</b><b> 共计<span class="cart-price">￥00.00</span></b></p>
+                    <p class="cart-go"><a href="cart.html">去购物车</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--header-list-->
+<div id="header-list">
+    <div class="wrap">
+        <div class="catalogs">
+            <div class="catalogs-title">
+                <a href="">全部商品分类▼</a>
+            </div>
+            <div class="catalogs-list">
+                <div class="item">
+                    <div class="item-title">
+                        <h3>
+                            <span class="span_1"></span>
+                            <b href="">进口商品</b>
+                        </h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">进口商品</a></h3>
+                        <a href="">奇异果</a>
+                        <a href="">牛油果</a>
+                        <a href="">李</a>
+                        <a href="">牛油果</a>
+                        <a href="">提子</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3>
+                            <span class="span_2"></span>
+                            <b href="">国产水果</b>
+                        </h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">国产水果</a></h3>
+                        <a href="">苹果</a>
+                        <a href="">梨</a>
+                        <a href="">柑橘橙柚</a>
+                        <a href="">猕猴桃</a>
+                        <a href="">瓜</a>
+                        <a href="">葡萄</a>
+                        <a href="">桃</a>
+                        <a href="">李</a>
+                        <a href="">枣</a>
+                        <a href="">芒果</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+
+                        <h3>
+                            <span class="span_3"></span>
+                            <b href="">精选肉类</b>
+                        </h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">精选肉类</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+
+                        <h3>
+                            <span class="span_4"></span>
+                            <b href="">禽类蛋品</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">禽类蛋品</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+
+                        <h3>
+                            <span class="span_5"></span>
+                            <b href="">海鲜水产</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">海鲜水产</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3>
+                            <span class="span_6"></span>
+                            <b href="">乳品糕点</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">乳品糕点</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3>
+                            <span class="span_7"></span>
+                            <b href="">新鲜蔬菜</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">新鲜蔬菜</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3> <span class="span_8"></span>
+                            <b href="">方便速食</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">方便速食</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3> <span class="span_9"></span>
+                            <b href="">粮油杂货</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">粮油杂货</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3> <span class="span_10"></span>
+                            <b href="">饮料酒水</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">饮料酒水</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-title">
+                        <h3> <span class="span_11"></span>
+                            <b href="">礼品礼券</b></h3>
+                    </div>
+                    <div class="item-name">
+                        <h3><a href="">礼品礼券</a></h3>
+                        <a href="">进口牛肉</a>
+                        <a href="">国产牛肉</a>
+                        <a href="">猪肉</a>
+                        <a href="">羊肉</a>
+                        <a href="">香肠</a>
+                        <a href="">火腿/培根</a>
+                        <a href="">肉制品</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--about-nav-->
+<div id="about_nav">
+    <div class="wrap">
+        <ul>
+            <li><a href="">新品专区</a></li>
+            <li><a href="">优质生活</a></li>
+            <li><a href="">银行专区</a></li>
+            <li><a href="">菜谱专栏</a></li>
+        </ul>
+    </div>
+</div>
+<!--detail-->
+<div id="detail">
+    <div class="wrap">
+        <div class="title">
+            <a href="">首页 </a>
+            >
+            <a id="detail-list"  href=""></a>
+            >
+            <a id="detail-type"  href=""></a>
+            >
+            <a class="detail-name" href=""></a>
+            >
+        </div>
+        <div class="content">
+            <div class="con_left">
+                <div class="banner">
+                    <p><img width="500px" height="500px" id="list_img" src="../pubilc_img/laoding.gif" alt="" onerror="this.src='../pubilc_img/laoding.gif'"  /></p>
+                    <ul>
+                       <li><a href=""><img id="list_img1" src=""/> </a></li>
+                       <li><a href=""><img id="list_img2" src=""/> </a></li>
+                       <li><a href=""><img id="list_img3" src=""/> </a></li>
+                   </ul>
+                    <!--<p><img src="images/detail/list1.jpg" alt=""/></p>
+                    <ul>
+                        <li><a href=""><img src="images/detail/list1.jpg"/> </a></li>
+                        <li><a href=""><img src="images/detail/list2.jpg"/> </a></li>
+                        <li><a href=""><img src="images/detail/list3.jpg"/> </a></li>
+                    </ul>-->
+                </div>
+            </div>
+            <div class="con_right">
+                <h2 class="detail-name">新西兰小黄人柠檬6个约100g/个</h2>
+                <p id="detail-jiancheng"></p>
+                <div class="pro-price">
+                    <div class="price-left">
+                        价格：
+                        <em>￥</em>
+                        <span id="detail-price">28.00</span>
+                    </div>
+                    <div class="price-right">
+                        <p>总满意度</p>
+                        <P><em>4.9</em>分</P>
+                        <P>(评论数<span>1981</span>)</P>
+                    </div>
+                </div>
+                <div class="pro-other">
+                        <div class="other-left">
+                            <div class="left-title">
+                                <em>促</em>
+                                <i>第二份半价</i>
+                            </div>
+                            <div class="left-content">
+                                <ul>
+                                    <li>规格：</li>
+                                    <li><a href=""><span>￥45.00</span><span>10个/份</span></a></li>
+                                    <li class="active"><a href=""><span  class="span_1">￥45.00</span><span class="span_2">10个/份</span></a></li>
+                                </ul>
+                                <p>16:00 前完成订单 预计后天(9月11日)送达</p>
+                                <div class="other-sum">
+                                    <div class="sum_add">
+                                        <p>数量：</p>
+                                        <input type="text" value="1"/>
+                                        <button class="btn_add">+</button>
+                                        <button class="btn_sub">-</button>
+                                    </div>
+                                    <div class="sum_cart">
+                                        <!--<a href=""><span></span>加入购物车</a>-->
+                                    </div>
+                                </div>
+                                <div class="other-label">
+                                    <a class="cart-sc" href="">收藏</a>
+                                    <a class="cart-fx" href="">分享到</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="other-right">
+                            <a href="">原产地：	中国</a>
+                            <a href="">编号：	<b id="detail-id"></b></a>
+                            <a href="">商品状态：	冷藏</a>
+                            <a href="">发货地：	北京</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--content-->
+<div id="content">
+    <div class="wrap">
+        <div class="content-left">
+            <div class="content-tj">
+                <div class="title">
+                    <h3>推荐菜谱</h3>
+                    <b>更多</b>
+                </div>
+                <dl>
+                    <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                    <dd>
+                        <a href="">北非咖啡牛肉</a>
+                        <span>❤9人</span>
+                        <i>想吃</i>
+                    </dd>
+                </dl>
+            </div>
+            <div class="content-hot">
+                <div class="title">
+                    <h3>最近浏览</h3>
+                    <b>清空</b>
+                </div>
+                <div class="content">
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">新西兰小黄人柠檬10个约100g/个</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">新西兰小黄人柠檬10个约100g/个</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">新西兰小黄人柠檬10个约100g/个</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="content-right">
+            <div class="hot">
+                <div class="hot-title">
+                    <h3>当季热卖</h3>
+                </div>
+                <div class="hot-dl">
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">阿根廷红虾2kg（特大号）</a>
+                            <span>¥188.00</span>
+                            <i>￥188.00</i>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">阿根廷红虾2kg（特大号）</a>
+                            <span>¥188.00</span>
+                            <i>￥188.00</i>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">阿根廷红虾2kg（特大号）</a>
+                            <span>¥188.00</span>
+                            <i>￥188.00</i>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">阿根廷红虾2kg（特大号）</a>
+                            <span>¥188.00</span>
+                            <i>￥188.00</i>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img  src="../pubilc_img/0101001.jpg" alt=""/></dt>
+                        <dd>
+                            <a href="">阿根廷红虾2kg（特大号）</a>
+                            <span>¥188.00</span>
+                            <i>￥188.00</i>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="content-detail">
+                    <div class="title">
+                        <ul>
+                            <li class="active"><a href="">商品详情</a></li>
+                            <li><a href="">用户评论</a><span>62</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab">
+                        <div class="tab1">
+                            <div class="tab1-title">
+                                <table>
+                                    <tr>
+                                        <td class="td-1">单果规格</td>
+                                        <td class="td-2">单果重约100g/个</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="tab1-img">
+                                <!--<img src="images/detail/detail_1.jpg" alt=""/>-->
+                                <!--<img src="images/detail/detail_2.jpg" alt=""/>-->
+                                <!--<img src="images/detail/detail_3.jpg" alt=""/>-->
+                                <!--<img src="images/detail/detail_4.jpg" alt=""/>-->
+                                <!--<img src="images/detail/detail_5.jpg" alt=""/>-->
+                            </div>
+                        </div>
+                        <div class="tab2">
+                            <div class="tab2-title">
+                                用户评论
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div id="footer">
+    <div class="wrap">
+        <dl class="col1">
+            <dt>新手指南</dt>
+            <dd>
+                <p><a href="">账户注册</a></p>
+                <p><a href="">购物流程</a></p>
+                <p><a href="">订购方式</a></p>
+                <p><a href="">悠币说明</a></p>
+                <p><a href="">会员等级</a></p>
+
+            </dd>
+        </dl>
+        <dl class="col2">
+            <dt>付款方式</dt>
+            <dd>
+                <p><a href="">支付方式</a>/<a href="">发票说明</a></p>
+                <p><a href="">充值说明</a>/<a href="">储值卡说明</a></p>
+                <p><a href="">优惠代码/礼品卡说明</a></p>
+                <p><a href="">卡券购买章程</a></p>
+            </dd>
+        </dl>
+        <dl class="col3">
+            <dt>配送方式</dt>
+            <dd>
+                <p><a href="">配送运费</a></p>
+                <p><a href="">配送范围</a></p>
+                <p><a href="">配送时间</a></p>
+            </dd>
+        </dl>
+        <dl class="col4">
+            <dt>售后服务</dt>
+            <dd>
+                <p><a href="">退换货政策</a></p>
+                <p><a href="">退换货流程</a></p>
+                <p><a href="">常见问题</a></p>
+                <p><a href="">投诉与建议</a></p>
+            </dd>
+        </dl>
+        <dl class="col5">
+            <dt>关于我们</dt>
+            <dd>
+                <p><a href="/">公司介绍</a></p>
+                <p><a href="">联系我们</a></p>
+                <p><a href="">业务合作</a></p>
+                <p><a href="">诚信举报</a></p>
+                <p><a href="" target="_blank" rel="nofollow">人才招聘</a></p>
+                <p><a href="">友情链接</a></p>
+
+            </dd>
+        </dl>
+        <div class="service">
+            <span>客服热线 400-000-7788 企业采购或团购，请转2号键咨询</span>
+            <span>周一至周日 9:00-21:00</span>
+        </div>
+        <div class="copyright">
+            <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+            <p>沪ICP备09008015号 Copyright © 2005-2016 <a href="">上海易果电子商务有限公司</a>版权所有</p>
+            <p class="authentication">
+                <a href="#" target="_blank" rel="nofollow"><img src="picture/footer_all.png" width="40px" height="47px"></a>
+                <a href="#" target="_blank"><img src="picture/footer_copy.gif" ></a>
+                <a target="_blank" href="#" ><img src="picture/footer_ghs.png" alt=""/> <span >沪公网安备 31010502000002号</span></a>
+
+            </p>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="js/public.js"></script>
+<script src="js/kuCity.js"></script>
+<script src="js/mycookie.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/status-cookie.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>

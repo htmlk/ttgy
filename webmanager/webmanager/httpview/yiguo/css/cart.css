@@ -1,0 +1,115 @@
+@charset "utf-8";
+#header .cir{
+    width: 600px;
+    float: right;
+}
+#header .cir .top{
+    text-align: right;;
+    height: 10px;
+    padding-bottom: 10px;
+}
+#header .cir .top li{
+    float: left;
+    width: 195px;
+}
+#header .cir .bottom li{
+    float: left;
+    width: 190px;
+
+}
+#header .cir li b{
+    float: left;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font: 26px "黑体";
+    border-radius: 36px ;
+    color: #008842;
+    background: #FFFFFF;
+    text-align: center;
+    border: 2px solid #008842;
+
+}
+#header .cir li .span_1{
+    background: #DCDCDC;
+}
+#header .cir .active b{
+    color: #FFFFFF;
+    background: #008842;
+}
+#header .cir li span{
+    float: left;
+    width: 150px ;
+    height: 10px;
+    margin-top:13px;
+    background: #FFFFFF;
+}
+/*cart-shop*/
+#cart-shop{
+
+}
+#cart-shop .cart-top{
+    height: 40px;
+    padding:10px 0 10px 0;
+}
+#cart-shop .cart-top h2{
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/bg_cart.png) no-repeat 0 2px;
+    border-bottom: 2px solid #008842;
+}
+#cart-shop .cart-main{
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+}
+#cart-shop .cart-main tbody tr{
+    border: 1px solid #CCCCCC;
+
+}
+#cart-shop .cart-main td{
+    height: 90px;
+    line-height: 90px;
+}
+#cart-shop .cart-main thead{
+    text-align: center;
+    border: 1px;
+    padding: 10px;
+}
+#cart-shop .cart-main th{
+    height: 40px;
+    background: #f1f1f1;
+    text-align: left;
+}
+#cart-shop .cart-main tbody input{
+    width: 20px;
+    float: left;
+}
+#cart-shop .cart-main  .total{
+    color: red;
+}
+#cart-shop .cart-main table{
+    border-collapse: collapse;
+    width: 1180px;
+    border-spacing: 10px 10px;
+}
+#cart-shop .cart-main tfoot tr{
+    background: #f1f1f1;
+}
+#cart-shop .cart-main .cart-sz a{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    width: 94px;
+    text-align: center;
+    color: #FFFFFF;
+    /*font: 18px "黑体";*/
+    background: #ff5317;
+}
+#cart-shop .cart-main  .cart-sum{
+    color: green;
+    font: 18px "黑体";
+}
+#cart-shop .cart-main  .cart-price{
+    color: red;
+    font: 18px "黑体";
+}
